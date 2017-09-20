@@ -37,13 +37,13 @@ function initMyBookmarklet(){
              });
 
 
-            $(document).ready(function(){
-                $("p").animate({
-                 backgroundColor: "black"
-                },5000, function(){
-                // Animation complete.
-              });
-            });
+            // $(document).ready(function(){
+            //     $("p").animate({
+            //      backgroundColor: "black"
+            //     },5000, function(){
+            //     // Animation complete.
+            //   });
+            // });
 
         //YOUR CODE ENDS HERE!
     })();

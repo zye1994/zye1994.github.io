@@ -35,10 +35,14 @@ function initMyBookmarklet(){
     $(this).css("background","black")
 });
 
-        $(document).ready(function(){
-    $("p").css("background","black")
+//         $(document).ready(function(){
+//     $("p").css("background","black")
+// });
+$(document).ready(function(){
+    $("p").animate({
+     background-color: "black"
+    },100)
 });
-
 
     })();
 

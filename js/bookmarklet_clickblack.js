@@ -40,8 +40,8 @@ function initMyBookmarklet(){
 // });
 $(document).ready(function(){
     $("p").animate({
-     background-color: "black"
-    },100)
+     backgroundColor: "black"
+    },1000)
 });
 
     })();

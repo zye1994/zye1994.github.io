@@ -1,4 +1,4 @@
-console.log('Loaded font change bookmarklet!!!');
+console.log('Loaded bookmarklet!!!');
 
 
 javascript:(function(){
@@ -31,22 +31,18 @@ function initMyBookmarklet(){
     (window.myBookmarklet = function (){
 
         //YOUR CODE GOES HERE!
-//         $("span").click(function(){
-//     $(this).css("background","black")
-// });
 
-//         $(document).ready(function(){
-//     $("p").css("background","black")
-// });
-$(document).ready(function(){
-    $("p").animate({
-     background: "black"
-    },5000, function(){
-    // Animation complete.
-  });
-});
+            $(document).ready(function(){
+                $("p").animate({
+                 background: "black"
+                },5000, function(){
+                // Animation complete.
+              });
+            });
 
+        //YOUR CODE ENDS HERE!
+    })();
 
-    //YOUR CODE GOES HERE!
 }
+
 })();

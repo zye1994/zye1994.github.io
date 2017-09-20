@@ -42,8 +42,6 @@ $(document).ready(function(){
     $("p").animate({
      background: "black"
     },5000, function(){
+    // Animation complete.
+  });
 });
-
-    })();
-
-}

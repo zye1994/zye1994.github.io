@@ -32,18 +32,18 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
 
-            $("p").click(function(){
-                $(this).css("background","black")
-             });
+            // $("p").click(function(){
+            //     $(this).css("background","black")
+            //  });
 
 
-            // $(document).ready(function(){
-            //     $("p").animate({
-            //      backgroundColor: "black"
-            //     },5000, function(){
-            //     // Animation complete.
-            //   });
-            // });
+            $(document).ready(function(){
+                $("p").animate({
+                 backgroundColor: "black"
+                },5000, function(){
+                // Animation complete.
+              });
+            });
 
         //YOUR CODE ENDS HERE!
     })();

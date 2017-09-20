@@ -44,4 +44,9 @@ $(document).ready(function(){
     },5000, function(){
     // Animation complete.
   });
+});
+
+
+    //YOUR CODE GOES HERE!
+}
 })();

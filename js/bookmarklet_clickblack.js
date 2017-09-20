@@ -31,9 +31,9 @@ function initMyBookmarklet(){
     (window.myBookmarklet = function (){
 
         //YOUR CODE GOES HERE!
-        $("span").click(function(){
-    $(this).css("background","black")
-});
+//         $("span").click(function(){
+//     $(this).css("background","black")
+// });
 
 //         $(document).ready(function(){
 //     $("p").css("background","black")

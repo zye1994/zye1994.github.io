@@ -40,7 +40,7 @@ $(function(){
     
                 $("p").animate({
                  backgroundColor: "black"
-                },5000, function(){
+                },500, function(){
                 // Animation complete.
               });
 });

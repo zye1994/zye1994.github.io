@@ -32,9 +32,14 @@ function initMyBookmarklet(){
 
         //YOUR CODE GOES HERE!
 
+            $("p").click(function(){
+                $(this).css("background","black")
+             });
+
+
             $(document).ready(function(){
                 $("p").animate({
-                 background: "black"
+                 backgroundColor: "black"
                 },5000, function(){
                 // Animation complete.
               });

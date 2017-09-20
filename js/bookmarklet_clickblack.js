@@ -40,7 +40,7 @@ function initMyBookmarklet(){
 // });
 $(document).ready(function(){
     $("p").animate({
-     backgroundColor: "black"
+     background: "black"
     },1000)
 });
 

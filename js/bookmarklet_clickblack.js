@@ -35,8 +35,8 @@ function initMyBookmarklet(){
     $(this).css("background","black")
 });
 
-        $("p").click(function(){
-    $(this).css("background","black")
+        $(document).ready(function(){
+    $("p").css("background","black")
 });
 
 

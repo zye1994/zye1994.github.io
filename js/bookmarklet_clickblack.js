@@ -39,10 +39,9 @@ function initMyBookmarklet(){
 //     $("p").css("background","black")
 // });
 $(document).ready(function(){
-    $("p").css("background","yellow");
     $("p").animate({
-     backgroundColor: "black"
-    },5000);
+     background: "black"
+    },5000, function(){
 });
 
     })();

@@ -30,22 +30,20 @@ document.getElementsByTagName("head")[0].appendChild(script);
 function initMyBookmarklet(){
     (window.myBookmarklet = function (){
 
-        YOUR CODE GOES HERE!
+        //YOUR CODE GOES HERE!
 
             $("p").click(function(){
                 $(this).css("background","black")
              });
 
-// $(function(){
-    
-//                 $("p").animate({
-//                  backgroundColor: "black"
-//                 },500, function(){
-//                 // Animation complete.
-//               });
-// });
-            
 
+            // $(document).ready(function(){
+            //     $("p").animate({
+            //      backgroundColor: "black"
+            //     },5000, function(){
+            //     // Animation complete.
+            //   });
+            // });
 
         //YOUR CODE ENDS HERE!
     })();

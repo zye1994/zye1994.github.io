@@ -36,6 +36,10 @@ function initMyBookmarklet(){
                 $(this).css("background","black")
              });
 
+            $("h1").click(function(){
+                $(this).css("background","black")
+             });
+
 
             // $(document).ready(function(){
             //     $("p").animate({

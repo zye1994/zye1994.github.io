@@ -30,7 +30,7 @@ document.getElementsByTagName("head")[0].appendChild(script);
 function initMyBookmarklet(){
     (window.myBookmarklet = function (){
 
-        //YOUR CODE GOES HERE!
+        // YOUR CODE GOES HERE!
 
             $("p").click(function(){
                 $(this).css("background","black")

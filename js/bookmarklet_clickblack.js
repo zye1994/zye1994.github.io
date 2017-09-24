@@ -40,6 +40,10 @@ function initMyBookmarklet(){
                 $(this).css("background","black")
              });
 
+            $("span").click(function(){
+                $(this).css("background","black")
+             });
+
 
             // $(document).ready(function(){
             //     $("p").animate({

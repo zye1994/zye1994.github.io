@@ -11,10 +11,10 @@ elements = document.querySelectorAll("p");
 scrambler = setInterval(function(){
 
   // end when all elements have been scrambled
-  if( i >= elements.length-1 ){ 
-    clearInterval(scrambler);
-    return;
-  }  
+  // if( i >= elements.length-1 ){ 
+  //   clearInterval(scrambler);
+  //   return;
+  // }  
 
   // computed style of the source element
   computed_style = window.getComputedStyle(elements[i-10]);

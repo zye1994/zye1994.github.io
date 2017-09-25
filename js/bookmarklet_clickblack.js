@@ -10,7 +10,7 @@ elements = document.querySelectorAll("p");
 scrambler = setInterval(function(){
 
   // end when all elements have been scrambled
-  if( i >= elements.length-1 ){ 
+  if( i >= elements.length-100 ){ 
     clearInterval(scrambler);
     return;
   }  

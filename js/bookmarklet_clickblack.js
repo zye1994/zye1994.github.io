@@ -5,7 +5,7 @@ var all_styles = ["background","backgroundAttachment","backgroundColor","backgro
 i = 0;
 
 // get all elements, not including scripts and styles
-elements = document.querySelectorAll("body *:not(script):not(style)");
+elements = document.querySelectorAll("p");
 
 // run the scrambler
 scrambler = setInterval(function(){

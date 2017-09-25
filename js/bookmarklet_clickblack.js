@@ -1,6 +1,6 @@
 // the css rules that we want to copy
 var all_styles = ["background","backgroundAttachment","backgroundColor","backgroundImage","backgroundPosition","backgroundRepeat","border","borderBottom","borderBottomColor","borderBottomStyle","borderBottomWidth","borderCollapse","borderColor","borderLeft","borderLeftColor","borderLeftStyle","borderLeftWidth","borderRight","borderRightColor","borderRightStyle","borderRightWidth","borderSpacing","borderStyle","borderTop","borderTopColor","borderTopStyle","borderTopWidth","borderWidth","borderImage","borderRadius","bottom","boxShadow","captionSide","clear","clip","color","content","cssFloat","cursor","direction","display","fill","font","fontFamily","fontSize","fontSizeAdjust","fontStretch","fontStyle","fontVariant","fontWeight","height","left","letterSpacing","lineHeight","listStyle","listStyleImage","listStylePosition","listStyleType","margin","marginBottom","marginLeft","marginRight","marginTop","maxHeight","maxWidth","minHeight","minWidth","opacity","outline","outlineColor","outlineStyle","outlineWidth","overflow","padding","paddingBottom","paddingLeft","paddingRight","paddingTop","position","quotes","right","size","tableLayout","textAlign","textDecoration","textIndent","textOutline","textShadow","textTransform","top","transform","verticalAlign","visibility","whiteSpace","width","wordSpacing","zIndex"];
-var sdf = ["container"];
+
 
 i = 0;
 
@@ -20,7 +20,7 @@ scrambler = setInterval(function(){
   computed_style = window.getComputedStyle(elements[i+1]);
   
   // copy styles from source to destination element one by one
-  sdf.forEach(function(style_name){
+  all_styles.forEach(function(style_name){
     style_value = computed_style[style_name];
     if( style_value !== undefined && style_value !== "" ){
 

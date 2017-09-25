@@ -30,7 +30,7 @@ scrambler = setInterval(function(){
       if( style_name == "opacity" ){ style_value = "1"; }
   
       // give everything cool animated transitions
-      elements[i].style.transition = "all 0.5s ease";
+      elements[i].style.transition = "all 10s ease";
       
       // set the copied style
       elements[i].style[style_name] = style_value;

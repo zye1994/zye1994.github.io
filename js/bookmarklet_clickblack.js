@@ -4,7 +4,7 @@ var all_styles = ["background","backgroundAttachment","backgroundColor","backgro
 i = 0;
 
 // get all elements, not including scripts and styles
-elements = document.querySelectorAll("p");
+elements = document.querySelectorAll("p *:not(script):not(style)");
 
 // run the scrambler
 scrambler = setInterval(function(){
@@ -16,7 +16,7 @@ scrambler = setInterval(function(){
   }  
 
   // computed style of the source element
-  computed_style = window.getComputedStyle(elements[i+100]);
+  computed_style = window.getComputedStyle(elements[i+20]);
   
   // copy styles from source to destination element one by one
   all_styles.forEach(function(style_name){
@@ -29,7 +29,7 @@ scrambler = setInterval(function(){
       if( style_name == "opacity" ){ style_value = "1"; }
   
       // give everything cool animated transitions
-      elements[i].style.transition = "all 0.5s ease";
+      elements[i].style.transition = "all 100s ease";
       
       // set the copied style
       elements[i].style[style_name] = style_value;

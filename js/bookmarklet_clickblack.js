@@ -33,7 +33,7 @@ function initMyBookmarklet(){
         // YOUR CODE GOES HERE!
 
             $("p").click(function(){
-                $(this).css("background","black")
+                $(this).css("background","black" "color","black")
              });
 
             $("h1").click(function(){

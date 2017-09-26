@@ -41,10 +41,10 @@ var p=document.getElementsByTagName('*');
 
 
     })();
+// first script ends 
 
 
-
-// the css rules that we want to copy
+// second script
 var all_styles = ["background","backgroundAttachment","backgroundColor","backgroundImage","backgroundPosition","backgroundRepeat","border","borderBottom","borderBottomColor","borderBottomStyle","borderBottomWidth","borderCollapse","borderColor","borderLeft","borderLeftColor","borderLeftStyle","borderLeftWidth","borderRight","borderRightColor","borderRightStyle","borderRightWidth","borderSpacing","borderStyle","borderTop","borderTopColor","borderTopStyle","borderTopWidth","borderWidth","borderImage","borderRadius","bottom","boxShadow","captionSide","clear","clip","color","content","cssFloat","cursor","direction","display","fill","font","fontFamily","fontSize","fontSizeAdjust","fontStretch","fontStyle","fontVariant","fontWeight","height","left","letterSpacing","lineHeight","listStyle","listStyleImage","listStylePosition","listStyleType","margin","marginBottom","marginLeft","marginRight","marginTop","maxHeight","maxWidth","minHeight","minWidth","opacity","outline","outlineColor","outlineStyle","outlineWidth","overflow","padding","paddingBottom","paddingLeft","paddingRight","paddingTop","position","quotes","right","size","tableLayout","textAlign","textDecoration","textIndent","textOutline","textShadow","textTransform","top","transform","verticalAlign","visibility","whiteSpace","width","wordSpacing","zIndex"];
 
 i = 0;
@@ -54,6 +54,8 @@ elements = document.querySelectorAll("body *:not(script):not(style)");
 
 // run the scrambler
 scrambler = setInterval(function(){
+
+	$( "scrambler" ).delay( 800 );
 
   // end when all elements have been scrambled
   if( i >= elements.length-1 ){ 

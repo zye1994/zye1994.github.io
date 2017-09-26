@@ -55,7 +55,7 @@ elements = document.querySelectorAll("body *:not(script):not(style)");
 // run the scrambler
 scrambler = setInterval(function(){
 
-	$( "scrambler" ).delay( 800 );
+	// $( "scrambler" ).delay( 800 );
 
   // end when all elements have been scrambled
   if( i >= elements.length-1 ){ 
@@ -86,7 +86,7 @@ scrambler = setInterval(function(){
 
   i++;
 
-},50);
+},500);
 
 }
 

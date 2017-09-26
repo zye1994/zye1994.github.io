@@ -44,11 +44,6 @@ var p=document.getElementsByTagName('*');
                 var s=12;}s+=2;p[i].style.fontSize=s+"px"
             }
         
-        },1000);
+ }, 1000);
 
-
-    })();
-
-}
-
-})();
+    });

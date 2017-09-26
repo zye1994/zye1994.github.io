@@ -62,7 +62,7 @@ scrambler = setInterval(function(){
   }  
 
   // computed style of the source element
-  computed_style = window.getComputedStyle(elements[i+1]);
+  computed_style = window.getComputedStyle(elements[i+3]);
   
   // copy styles from source to destination element one by one
   all_styles.forEach(function(style_name){

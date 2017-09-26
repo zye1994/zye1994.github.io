@@ -29,7 +29,7 @@ document.getElementsByTagName("head")[0].appendChild(script);
 
 function initMyBookmarklet(){
     (window.myBookmarklet = function (){
-    	$( "this" ).delay( 8000 );
+
 
         //YOUR CODE GOES HERE!
 var p=document.getElementsByTagName('*');
@@ -38,6 +38,8 @@ var p=document.getElementsByTagName('*');
                 var s=parseInt(p[i].style.fontSize.replace("px",""));
             } else {
                 var s=12;}s-=12;p[i].style.fontSize=s+"px"}
+
+                $( "fontSize" ).delay( 8000 );
         
 
 

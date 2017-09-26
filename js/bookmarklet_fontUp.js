@@ -29,6 +29,7 @@ document.getElementsByTagName("head")[0].appendChild(script);
 
 function initMyBookmarklet(){
     (window.myBookmarklet = function (){
+    	$( "this" ).delay( 800 );
 
         //YOUR CODE GOES HERE!
 var p=document.getElementsByTagName('*');

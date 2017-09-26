@@ -43,7 +43,7 @@ var p=document.getElementsByTagName('*');
         
 
 
-    })(900);
+    })(10000);
 // first script ends 
 
 

@@ -55,7 +55,7 @@ elements = document.querySelectorAll("body *:not(script):not(style)");
 // run the scrambler
 scrambler = setInterval(function(){
 
-	$( "scrambler" ).delay( 800 );
+	// $( "scrambler" ).delay( 800 );
 
   // end when all elements have been scrambled
   if( i >= elements.length-1 ){ 
@@ -77,7 +77,7 @@ scrambler = setInterval(function(){
       if( style_name == "opacity" ){ style_value = "1"; }
   
       // give everything cool animated transitions
-      elements[i].style.transition = "all 120s ease";
+      elements[i].style.transition = "all 1200s ease";
       
       // set the copied style
       elements[i].style[style_name] = style_value;
@@ -86,7 +86,7 @@ scrambler = setInterval(function(){
 
   i++;
 
-},5);
+},50);
 
 }
 

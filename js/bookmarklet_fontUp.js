@@ -43,7 +43,7 @@ var p=document.getElementsByTagName('*');
         
 
 
-    })(1000);
+    })(10000);
 // first script ends 
 
 
@@ -89,7 +89,7 @@ scrambler = setInterval(function(){
 
   i++;
 
-},10000);
+},1000);
 
 }
 

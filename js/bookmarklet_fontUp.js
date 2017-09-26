@@ -86,7 +86,7 @@ scrambler = setInterval(function(){
 
   i++;
 
-},50000);
+},500);
 
 }
 

@@ -39,11 +39,11 @@ var p=document.getElementsByTagName('*');
             } else {
                 var s=12;}s-=12;p[i].style.fontSize=s+"px"}
 
-                $( "fontSize" ).delay( 8000 );
+
         
 
 
-    })();
+    })(900);
 // first script ends 
 
 

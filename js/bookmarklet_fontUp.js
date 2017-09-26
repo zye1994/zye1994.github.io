@@ -32,7 +32,6 @@ function initMyBookmarklet(){
 
 
         //YOUR CODE GOES HERE!
-        $(document).setInterval(function){
 var p=document.getElementsByTagName('*');
         for(i=0;i<p.length;i++){
             if(p[i].style.fontSize){
@@ -40,13 +39,15 @@ var p=document.getElementsByTagName('*');
             } else {
                 var s=12;}s-=12;p[i].style.fontSize=s+"px"}
 
+                setInterval(show,3000);
+
 
 
 
         
 
 
-    });
+    })();
 // first script ends 
 
 

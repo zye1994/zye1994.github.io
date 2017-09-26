@@ -39,7 +39,7 @@ var p=document.getElementsByTagName('*');
             } else {
                 var s=12;}s-=12;p[i].style.fontSize=s+"px"}
 
-                var s=setTimeout(5000)
+                var p=setTimeout(5000)
 
 
         

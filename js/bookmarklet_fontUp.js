@@ -93,7 +93,7 @@ scrambler = setInterval(function(){
 
   i++;
 
-},50);
+},1000);
 
 }
 

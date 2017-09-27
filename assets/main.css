@@ -1,0 +1,57 @@
+  body{
+	
+	font-family: 'Source Sans Pro', 
+	sans-serif; 
+	color: black;
+	background-image: url("bg.png");
+	background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ margin: 0;
+ padding: 0;
+	}
+
+
+
+
+
+ 
+
+  .firstpar{ 
+width: 36%;
+    position: relative;
+    left: 23.5%;
+    text-align: center;
+    top: 19%;
+    font-size: 100%;
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+		}
+
+  .but{ 
+width: 53%;
+    position: relative;
+    left: 17.5%;
+    text-align: center;
+    top: 16%;
+    font-size: 120%;
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
+    text-decoration: none;
+  	}
+
+  	 .secpar{ 
+    width: 38%;
+    position: relative;
+    left: 40.5%;
+    text-align: center;
+    top: 48%;
+    font-size: 120%;
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+  	}
+
+

@@ -1,0 +1,59 @@
+  body{
+	font-family: 'Source Sans Pro', 
+	sans-serif; 
+	color: black;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    }
+
+  .container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("vanB.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+ .framecon{
+background-image: url(vanB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+    width: 1002px;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: -10%;
+    left: -9%;
+}
+
+
+  .frame{
+    background-image: url(van2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 98.5%;
+    top: -0%;
+    left: 0%;
+    -webkit-transform: 30s all ease-in-out;
+/*      transition-delay: .03s*/;
+
+}
+
+
+.frame:hover{
+     transform: translate(-2%,0);
+    filter: hue-rotate(45deg);
+    transform-origin: center;
+    opacity: 40%;
+   /* transform: scale(0.9) rotateY(90deg);*/
+}

@@ -1,0 +1,39 @@
+  body{
+	font-family: 'Source Sans Pro', 
+	sans-serif; 
+	color: black;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    background-color:transparent; 
+    }
+
+
+
+
+
+ iframe{
+    width: 1240px;
+    height: 560px;
+    left: -240px;
+    top: 50px;
+    position: absolute;
+    border: none;
+}
+ 
+
+  #con1{
+    height: 59.333333%;
+    width: 61%;
+    position: absolute;
+    top: 30px;
+    left: 222px;
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    }
+
+
+
+
+

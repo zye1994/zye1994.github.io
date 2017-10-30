@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    white-space: nowrap;
+    background: #ff1919;
+        padding: 0px;
+    margin: 0px;
+    -webkit-animation: colorchange 4s infinite; 
+}
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #ff1919;}
+      25%  {background: yellow;}
+      50%  {background: #22f1fc;}
+      75%  {background: #56fc23;}
+      100% {background: #ff3838;}
+    }
+
+iframe {
+    border: none;
+    margin: 0;
+    display: inline-block;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#g {
+    width: 100vw;
+    min-width:1500px
+}

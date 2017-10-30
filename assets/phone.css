@@ -1,0 +1,78 @@
+  body{
+	font-family: 'Source Sans Pro', 
+	sans-serif; 
+	color: black;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    /*background-image: url("p.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+  .container{
+height: 885px;
+    width: 727px;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    /* border-radius: 50%; */
+    /* background: red; */
+    top: 60px;
+    left: 894px;
+  }
+
+  .frame{
+    background-image: url(phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 60%;
+    width: 58%;
+    top: 20%;
+    left: 19%;
+    transform: scale(1.67);
+  }
+
+
+    .secframe{
+     background-image: url(phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 50%;
+    width: 49%;
+    top: 31%;
+    left: 29%;
+    transform: scale(1.67);
+}
+
+ .frame iframe
+ {
+    position: absolute;
+    height: 44%;
+    width: 32%;
+    top: 25%;
+    left: 28%;
+    transform: scale(1.67);
+    border: none;
+}
+
+ .secframe iframe
+ {
+position: absolute;
+    height: 45%;
+    width: 34%;
+    top: 25%;
+    left: 30%;
+    transform: scale(1.67);
+    /* border: solid 1px red; */
+}
+
+iframe {
+    border:none;
+    background-size: cover;
+}
+ 
+
+

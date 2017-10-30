@@ -1,0 +1,79 @@
+  body{
+	font-family: 'Source Sans Pro', 
+	sans-serif; 
+	color: black;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    }
+
+
+
+
+ iframe{
+    width: 1240px;
+    height: 560px;
+    left: -240px;
+    top: 50px;
+    position: absolute;
+    border: none;
+}
+ 
+
+  #con1{
+height: 59.333333%;
+    width: 64%;
+    position: absolute;
+    top: 159px;
+    left: 102px;
+    margin: 0px;
+    padding: 0px;
+    }
+
+ .con2{
+    height: 33.333333333%;
+    width: 100%;
+    position:absolute;
+    top: 33.3%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("van2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+ .con3{
+    height: 33.333333333%;
+    width: 100%;
+    position:absolute;
+    top: 66.66666666%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("pb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.object {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+}
+.van {
+    top: 45%;
+    left: 44%;
+    size: 10%;
+}
+
+#axis :hover .move-right{
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
+}
+
+
+

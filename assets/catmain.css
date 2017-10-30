@@ -1,0 +1,31 @@
+  body{
+	font-family: 'Source Sans Pro', 
+	sans-serif; 
+	color: black;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    }
+
+  .container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("cat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .frame{
+    background-image: url("cat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 25%;
+    left:25%;
+  }
+

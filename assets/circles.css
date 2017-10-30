@@ -1,0 +1,52 @@
+  body{
+	font-family: 'Source Sans Pro', 
+	sans-serif; 
+	color: black;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("p.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+  .container{
+    height: 430px;
+    width: 782px;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    /* border-radius: 50%; */
+    background-image: url(p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 260px;
+    left: 214px;
+}
+  
+
+  .frame{
+   background-image: url(p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 48%;
+    width: 48%;
+    top: 29%;
+    left: 13%;
+  }
+
+
+    .mask{
+     height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    /* border-radius: 50%; */
+    background-image: url(p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+  }

@@ -1,0 +1,57 @@
+  body{
+	font-family: 'Source Sans Pro', 
+	sans-serif; 
+	color: black;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    }
+
+  .container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("pb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+  .framecon{
+background-image: url(pb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 55%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 20%;
+    left: 46%;
+
+}
+
+
+  .frame{
+    background-image: url(p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 97.5%;
+    top: 0%;
+    left: 0%;
+
+}
+
+
+.frame:hover{
+    top:0.9%;
+    filter: hue-rotate(45deg);
+    transform-origin: center;
+   /* transform: scale(0.9) rotateY(90deg);*/
+}

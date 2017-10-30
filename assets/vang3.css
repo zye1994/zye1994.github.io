@@ -1,0 +1,59 @@
+  body{
+	font-family: 'Source Sans Pro', 
+	sans-serif; 
+	color: black;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    }
+
+  .container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("vanB.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+  .framecon{
+    height: 80%;
+    width: 68%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 2%;
+    left: 10%;
+    background-image: url(van2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+  .frame{
+    background-image: url(van2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 87%;
+    top: -0%;
+    left: 0%;
+}
+
+
+.frame:hover{
+    top: 0.3%;
+    left: -0.8%;
+
+}
+
+.container:hover.frame{
+    top: 0.3%;
+    left: -0.8%;
+
+}

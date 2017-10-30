@@ -1,0 +1,42 @@
+  body{
+    font-family: 'Source Sans Pro', 
+    sans-serif; 
+    color: black;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    }
+
+  .frame{
+    height: 90%;
+    width: 90%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -2%;
+    left: 1%;
+  }
+
+  .container{
+ height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    top: 0%;
+}
+
+
+
+
+ .frame:hover{
+        top:20%;
+   
+}

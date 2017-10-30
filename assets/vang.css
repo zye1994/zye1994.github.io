@@ -14,7 +14,7 @@
     position: fixed;
     margin: 0px;
     padding: 0px;
-    background-image: url("vanB.png");
+    background-image: url("VanB.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -22,7 +22,7 @@
 
 
  .framecon{
-background-image: url(vanB.png);
+background-image: url(VanB.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 740px;

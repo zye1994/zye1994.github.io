@@ -44,14 +44,14 @@ background-image: url(vanB.png);
     width: 98.5%;
     top: -0%;
     left: 0%;
-    -webkit-transform: 30s all ease-in-out;
+    -webkit-transition: transform .2s ease-in-out;
 /*      transition-delay: .03s*/;
 
 }
 
 
 .frame:hover{
-     transform: translate(-2%,0);
+    transform: translate(-2%,0);
     filter: hue-rotate(45deg);
     transform-origin: center;
     opacity: 40%;

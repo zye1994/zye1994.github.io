@@ -45,12 +45,13 @@ background-image: url(pb.png);
     width: 97.5%;
     top: 0%;
     left: 0%;
+    -webkit-transition: transform .2s ease-in-out;
 
 }
 
 
 .frame:hover{
-    top:0.9%;
+    transform: translate(0,0.9%);
     filter: hue-rotate(45deg);
     transform-origin: center;
    /* transform: scale(0.9) rotateY(90deg);*/

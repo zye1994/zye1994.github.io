@@ -33,15 +33,14 @@
     width: 99.9%;
     top: -0%;
     left: 0%;
-    -webkit-transform: 30s all ease-in-out;
+    -webkit-transition: transform .2s ease-in-out;
 /*      transition-delay: .03s*/;
 
 }
 
 
 .frame:hover{
-    left:-1%;
-    top:-1%;
+    transform: translate(-1%,-1%);
     filter: hue-rotate(45deg);
     transform-origin: center;
     opacity: 40%;

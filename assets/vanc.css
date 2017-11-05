@@ -1,0 +1,114 @@
+  body{
+	font-family: 'Source Sans Pro', 
+	sans-serif; 
+	color: black;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    height:auto;
+    width: 2002px; 
+    }
+
+
+
+
+ .framecon{
+ background-image: url(VanB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+    width: 1002px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 0%;
+    left: 0%;
+    background-color: transparent;
+    }
+
+ .framecon2{
+    background-image: url(VanB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+    width: 1002px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 740px;
+    left: 0%;
+    background-color: transparent;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    }
+
+ .framecon3{
+    background-image: url(VanB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+    width: 1002px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 0%;
+    left: 1002px;
+    background-color: transparent;
+    /* transform: rotate(-90deg); */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    }
+
+ .framecon4{
+    background-image: url(VanB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+    width: 1002px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 740px;
+    left: 1002px;
+    background-color: transparent;
+    transform: rotate(180deg);
+    }
+
+  .frame{
+    background-image: url(van2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: 14%;
+    left: 21%;
+    transform: rotate(20deg);
+    /* transition: transform .2s ease-in-out; */
+    /* transition-delay: .03s; */
+    /* transition: transform .2s ease-in-out; */
+    /* transition-delay: .03s; */
+    /*transition: transform .2s ease-in-out;*/
+
+      
+/*      transition-delay: .03s*/;
+
+}
+
+/*
+.frame:hover{
+    transform: translate(-2%,0);
+    filter: hue-rotate(45deg);
+    transform-origin: center;
+    opacity: 40%;
+   /* transform: scale(0.9) rotateY(90deg);*/
+}*/

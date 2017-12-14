@@ -13,6 +13,21 @@
 
 
 
+ .framecon0{
+ background-image: url(VanB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+    width: 1002px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 0%;
+    left: 0%;
+    background-color: transparent;
+    }
+
+
  .framecon{
  background-image: url(VanB.png);
     background-repeat: no-repeat;
@@ -103,11 +118,3 @@
 
 }
 
-/*
-.frame:hover{
-    transform: translate(-2%,0);
-    filter: hue-rotate(45deg);
-    transform-origin: center;
-    opacity: 40%;
-   /* transform: scale(0.9) rotateY(90deg);*/
-}*/
